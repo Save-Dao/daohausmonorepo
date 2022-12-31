@@ -1,7 +1,7 @@
 import { percentage } from '@daohaus/utils';
 import { MolochV3Proposal } from '@daohaus/moloch-v3-data';
 import { Progress } from '@daohaus/ui';
-import { mintDark, slateDark, tomatoDark } from '@radix-ui/colors';
+import { mintDark, oliveDark, tomatoDark } from '@radix-ui/colors';
 import { useMemo } from 'react';
 import styled from 'styled-components';
 
@@ -33,7 +33,7 @@ export const VotingBar = ({ proposal }: { proposal: MolochV3Proposal }) => {
   return (
     <VoteBarBox>
       <Progress
-        backgroundColor={slateDark.slate8}
+        backgroundColor={oliveDark.olive8}
         progressSection={percentages}
       />
     </VoteBarBox>

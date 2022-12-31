@@ -15,8 +15,8 @@ import {
   orangeDark,
   red,
   redDark,
-  slate,
-  slateDark,
+  lime,
+  limeDark
 } from '@radix-ui/colors';
 
 /*
@@ -153,33 +153,33 @@ export const secondaryDarkA = {
 // * Neutral Colors
 
 export const neutral = {
-  step1: slate.slate1,
-  step2: slate.slate2,
-  step3: slate.slate3,
-  step4: slate.slate4,
-  step5: slate.slate5,
-  step6: slate.slate6,
-  step7: slate.slate7,
-  step8: slate.slate8,
-  step9: slate.slate9,
-  step10: slate.slate10,
-  step11: slate.slate11,
-  step12: slate.slate12,
+  step1: lime.lime1,
+  step2: lime.lime2,
+  step3: lime.lime3,
+  step4: lime.lime4,
+  step5: lime.lime5,
+  step6: lime.lime6,
+  step7: lime.lime7,
+  step8: lime.lime8,
+  step9: lime.lime9,
+  step10: lime.lime10,
+  step11: lime.lime11,
+  step12: lime.lime12,
 };
 
 export const neutralDark = {
-  step1: slateDark.slate1,
-  step2: slateDark.slate2,
-  step3: slateDark.slate3,
-  step4: slateDark.slate4,
-  step5: slateDark.slate5,
-  step6: slateDark.slate6,
-  step7: slateDark.slate7,
-  step8: slateDark.slate8,
-  step9: slateDark.slate9,
-  step10: slateDark.slate10,
-  step11: slateDark.slate11,
-  step12: slateDark.slate12,
+  step1: limeDark.lime1,
+  step2: limeDark.lime2,
+  step3: limeDark.lime3,
+  step4: limeDark.lime4,
+  step5: limeDark.lime5,
+  step6: limeDark.lime6,
+  step7: limeDark.lime7,
+  step8: limeDark.lime8,
+  step9: limeDark.lime9,
+  step10: limeDark.lime10,
+  step11: limeDark.lime11,
+  step12: limeDark.lime12,
 };
 
 // * Utility Colors

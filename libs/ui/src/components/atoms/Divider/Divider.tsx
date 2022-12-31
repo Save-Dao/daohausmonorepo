@@ -1,6 +1,6 @@
 import * as RadixDivider from '@radix-ui/react-separator';
 import styled from 'styled-components';
-import { slateDark } from '@radix-ui/colors';
+import { oliveDark } from '@radix-ui/colors';
 
 type StyleProps = {
   margin?: string;
@@ -8,7 +8,7 @@ type StyleProps = {
 };
 
 const StyledDivider = styled(RadixDivider.Root)`
-  background-color: ${(props: StyleProps) => props.color || slateDark.slate6};
+  background-color: ${(props: StyleProps) => props.color || oliveDark.olive6};
   margin: ${(props: StyleProps) => props.margin};
   &[data-orientation='horizontal'] {
     height: 0.1rem;
