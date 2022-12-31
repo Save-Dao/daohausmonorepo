@@ -1,7 +1,7 @@
 export const font = {
   family: {
-    body: `'Mulish', sans-serif`,
-    data: `'Space Mono', monospace`,
+    body: `'Cairo Play', cursive`,
+    data: `'Press Start 2P', cursive`
   },
   size: {
     xs: '1.2rem',
